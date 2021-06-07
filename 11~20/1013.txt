@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine();
+		String[] ch = str.split(" ");
+		
+		int a = Integer.parseInt(ch[0]);
+		int b = Integer.parseInt(ch[1]);
+		
+		System.out.printf("%d %d", a,b);
+	}
+
+}

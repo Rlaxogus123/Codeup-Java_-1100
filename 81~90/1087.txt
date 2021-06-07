@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int count = sc.nextInt();
+		
+		int sum = 1;
+		int total = 0;
+		while(total < count)
+		{
+			total += sum;
+			sum++;
+		}
+		System.out.println(total);
+	}
+}

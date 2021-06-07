@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		
+		// .을 구분할 때에는 [.] 또는 \\. 을 사용할 것.
+		String[] st = str.split("-");
+		
+		System.out.println(st[0] + st[1]);
+	}
+
+}

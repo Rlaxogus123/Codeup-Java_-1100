@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int[] students = new int[23];
+		int num = sc.nextInt();
+		
+		for(int i = 0; i < num ; i++) {
+			students[sc.nextInt()-1]++;
+		}
+		
+		for(int i = 0; i < 23 ;i++)
+			System.out.printf("%d ", students[i]);
+	}
+}
